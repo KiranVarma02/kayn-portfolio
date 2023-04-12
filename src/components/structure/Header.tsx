@@ -1,4 +1,4 @@
-import Hero from "../elements/Hero";
+import Hero from '../elements/Hero'
 
 export function Header() {
     return (

@@ -1,6 +1,6 @@
 import cv from '../../data/cv.json'
-import TimelineHeader from "./TimelineHeader";
-import TimelineItem from "./TimelineItem";
+import TimelineHeader from './TimelineHeader'
+import TimelineItem from './TimelineItem'
 
 const Timeline = () => {
     return (
@@ -22,7 +22,7 @@ const Timeline = () => {
                 })
                 .filter((value, index, self) => self.indexOf(value) === index)
                 .map((year, index) => {
-                    let content: any[] = []
+                    const content: any[] = []
                     content.push(
                         <TimelineHeader key={index} year={year}/>
                     )
@@ -34,9 +34,9 @@ const Timeline = () => {
                                 return (
                                     <TimelineItem
                                         key={index}
-                                        date={new Date(item.startDate).toLocaleString("en-UK", {
-                                            month: "long",
-                                            year: "numeric"
+                                        date={new Date(item.startDate).toLocaleString('en-UK', {
+                                            month: 'long',
+                                            year: 'numeric'
                                         })}
                                         company={item.company}
                                         summary={item.summary}
@@ -53,4 +53,4 @@ const Timeline = () => {
     )
 }
 
-export default Timeline;
+export default Timeline

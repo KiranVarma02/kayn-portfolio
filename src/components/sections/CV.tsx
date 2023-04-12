@@ -1,32 +1,29 @@
-import {Button} from "react-bootstrap";
-import {AiOutlineDownload} from "react-icons/ai";
-// @ts-ignore
-import cvPdf from "../../Assets/Kiran_Varma.pdf";
-import {Document, Page, pdfjs} from "react-pdf";
-import {useEffect, useState} from "react";
+import {Button} from 'react-bootstrap'
+import {AiOutlineDownload} from 'react-icons/ai'
+// import cvPdf from '../../Assets/Kiran_Varma.pdf'
+import {Document, Page, pdfjs} from 'react-pdf'
+import {useEffect, useState} from 'react'
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 
-// const cvLink = "https://github.com/KiranVarma02/kayn-portfolio/blob/main/src/Assets/Kiran_Varma.pdf";
+const cvPdf = 'https://github.com/KiranVarma02/kayn-portfolio/blob/main/src/Assets/Kiran_Varma.pdf'
 
 const CV = () => {
-
-    const [width, setWidth] = useState(1200);
+    const [width, setWidth] = useState(1200)
     const [numPages, setNumPages] = useState(null)
     const [pageNumber, setPageNumber] = useState(1)
 
-
     useEffect(() => {
-        setWidth(window.innerWidth);
-    }, []);
+        setWidth(window.innerWidth)
+    }, [])
 
     const onDocumentLoadSuccess = ({numPages}) => {
         setNumPages(numPages)
         setPageNumber(1)
     }
 
-    const changePage = (offset) => {
-        setPageNumber(prevPageNumber => prevPageNumber + offset)
+    const changePage = (offset: number) => {
+        setPageNumber((prevPageNumber: number) => prevPageNumber + offset)
     }
 
     const previousPage = () => {
@@ -53,7 +50,7 @@ const CV = () => {
                             </Button>
 
                             <p className="is-success">
-                                Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
+                                Page {pageNumber || (numPages ? 1 : '--')} of {numPages ?? '--'}
                             </p>
                             <button
                                 className="button is-success"
@@ -85,9 +82,8 @@ const CV = () => {
 
             </section>
 
-
         </div>
     )
 }
 
-export default CV;
+export default CV

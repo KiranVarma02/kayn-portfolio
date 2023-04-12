@@ -13,7 +13,6 @@ export default function AboutMe() {
                 </figure>
             </div>
 
-
             <div className="container has-text-centered">
                 <p className="subtitle is-4 has-text-black has-text-weight-bold">
                     {cv.basics.x_title}

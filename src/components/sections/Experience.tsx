@@ -1,4 +1,4 @@
-import Timeline from "../elements/Timeline";
+import Timeline from '../elements/Timeline'
 
 const Experience = () => {
     return (
@@ -11,4 +11,4 @@ const Experience = () => {
     )
 }
 
-export default Experience;
+export default Experience

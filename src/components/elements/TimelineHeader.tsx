@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const TimelineHeader = ({year}) => {
     return (
         <header className="timeline-header">
@@ -6,4 +8,8 @@ const TimelineHeader = ({year}) => {
     )
 }
 
-export default TimelineHeader;
+export default TimelineHeader
+
+TimelineHeader.propTypes = {
+    year: PropTypes.number
+}

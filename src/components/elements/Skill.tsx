@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const Skill = ({icon, text}) => {
     return (
         <div className="card">
@@ -12,4 +14,9 @@ const Skill = ({icon, text}) => {
     )
 }
 
-export default Skill;
+export default Skill
+
+Skill.propTypes = {
+    icon: PropTypes.string,
+    text: PropTypes.string
+}

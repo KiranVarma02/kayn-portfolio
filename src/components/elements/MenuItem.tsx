@@ -1,5 +1,12 @@
-export default function MenuItem(props) {
-    return (
-        <a href={props.href} className="navbar-item is-unselectable">{props.text}</a>
-    )
+import PropTypes from 'prop-types'
+
+export default function MenuItem({href, text}) {
+  return (
+      <a href={href} className="navbar-item is-unselectable">{text}</a>
+  )
+}
+
+MenuItem.propTypes = {
+  href: PropTypes.string,
+  text: PropTypes.string
 }
