@@ -18,7 +18,7 @@ export default function AboutMe() {
                 <p className="subtitle is-4 has-text-black has-text-weight-bold">
                     {cv.basics.x_title}
                 </p>
-                <p className="subtitle is-5 has-text-black has-text-weight-light summary-text">
+                <p className="subtitle is-5 has-text-black-bis has-text-weight-light">
                     {cv.basics.summary}
                 </p>
             </div>

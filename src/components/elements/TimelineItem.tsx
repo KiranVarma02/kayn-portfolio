@@ -6,11 +6,11 @@ const TimelineItem = ({date, company, summary, skills}) => {
             </div>
 
             <div className="timeline-content">
-                <p className="heading">{date}</p>
+                <p className="heading ">{date}</p>
                 <h1 className="title is-4">{company}</h1>
                 {/*<span className={`skill-icon has-text-link is-size-4 fa-solid ${company}`}></span>*/}
-                <p className="content" style={{maxWidth: "25em"}}><strong>Summary: </strong>{summary}</p>
-                <p className="content" style={{maxWidth: "25em"}}><strong>Skills: </strong>{skills}</p>
+                <p className="content has-text-black" style={{maxWidth: "25em"}}><strong>Summary: </strong>{summary}</p>
+                <p className="content has-text-black" style={{maxWidth: "25em"}}><strong>Skills: </strong>{skills}</p>
             </div>
         </div>
     )
