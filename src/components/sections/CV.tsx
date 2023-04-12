@@ -1,12 +1,10 @@
 import {Button} from 'react-bootstrap'
 import {AiOutlineDownload} from 'react-icons/ai'
-// import cvPdf from '../../Assets/Kiran_Varma.pdf'
+import cvPdf from '../../Assets/Kiran_Varma.pdf'
 import {Document, Page, pdfjs} from 'react-pdf'
 import {useEffect, useState} from 'react'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-
-const cvPdf = 'https://github.com/KiranVarma02/kayn-portfolio/blob/main/src/Assets/Kiran_Varma.pdf'
 
 const CV = () => {
     const [width, setWidth] = useState(1200)
