@@ -2,7 +2,7 @@ import cv from '../../data/cv.json'
 
 export default function AboutMe() {
     return (
-        <section className="section has-background-grey-lighter" id="about-me">
+        <section className="section has-background-grey" id="about-me">
             <div className="container has-text-centered">
                 <figure className="resize container is-180x180">
                     <img
@@ -17,7 +17,7 @@ export default function AboutMe() {
                 <p className="subtitle is-4 has-text-black has-text-weight-bold">
                     {cv.basics.x_title}
                 </p>
-                <p className="subtitle is-5 has-text-black-bis has-text-weight-light">
+                <p className="content has-text-black-bis">
                     {cv.basics.summary}
                 </p>
             </div>

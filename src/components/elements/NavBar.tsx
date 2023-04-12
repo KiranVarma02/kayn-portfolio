@@ -30,6 +30,7 @@ export function NavBar() {
                             <MenuItem text="Skills" href="#skills"/>
                             <MenuItem text="Experience" href="#experience"/>
                             <MenuItem text="CV" href="#cv"/>
+                            <MenuItem text="Projects" href="#projects"/>
                             <MenuItem text="Contact Me" href="#contact-me"/>
                         </div>
                     </div>
