@@ -19,7 +19,7 @@ const buildSkillsRow = (skills, start, end) => {
 
 const Skills = () => {
     return (
-        <section className="section" id="skills">
+        <section className="section has-background-grey-light" id="skills">
             <div className="container">
                 <h1 className="title">Skills</h1>
                 <div className="columns">

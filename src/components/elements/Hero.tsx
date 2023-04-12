@@ -3,15 +3,9 @@ import cv from '../../data/cv.json'
 
 export default function Hero() {
     return (
-        <section className="hero is-dark is-fullheight has-bg-image">
+        <nav className="navbar hero is-dark has-bg-image is-fixed-top is-transparent">
             <div className="hero-head">
                 <NavBar/>
-            </div>
-
-            <div className="hero-body">
-                <div className="container">
-                    <h1 className="title">I'm a {cv.basics.label}</h1>
-                </div>
             </div>
 
             <div className="hero-foot" style={{paddingBottom: "20px"}}>
@@ -39,6 +33,6 @@ export default function Hero() {
                 </div>
 
             </div>
-        </section>
+        </nav>
     )
 }

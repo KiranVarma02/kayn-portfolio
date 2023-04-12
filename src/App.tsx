@@ -6,10 +6,16 @@ import Footer from "./components/structure/Footer";
 
 function App() {
     return (
-        <div className="App">
-            <Header/>
-            <Content/>
-            <Footer/>
+        <div className="App has-bg-image">
+            <section className="section">
+                <Header/>
+            </section>
+
+            <section className="section">
+                <Content/>
+                <Footer/>
+            </section>
+
         </div>
     )
 }

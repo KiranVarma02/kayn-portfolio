@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="footer has-background-link">
+        <footer className="footer has-background-grey-light">
             <div className="content has-text-centered has-text-white">
                 <p>
                     Built by <strong>Kiran Varma</strong>
