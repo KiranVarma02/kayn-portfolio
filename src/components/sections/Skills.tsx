@@ -1,10 +1,9 @@
-import Skill from "../elements/Skill";
+import Skill from '../elements/Skill'
 import cv from '../../data/cv.json'
-
 
 const buildSkillsRow = (skills, start, end) => {
     const batch: any[] = skills.slice(start, end)
-    let skillsComponents: any[] = []
+    const skillsComponents: any[] = []
 
     batch.forEach((value: any, index) => {
         skillsComponents.push(
@@ -33,4 +32,4 @@ const Skills = () => {
     )
 }
 
-export default Skills;
+export default Skills

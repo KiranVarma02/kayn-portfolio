@@ -2,7 +2,7 @@ import {useState} from 'react'
 import MenuItem from './MenuItem'
 
 export function NavBar() {
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(false)
 
     function handleMenuClick() {
         setShowMenu(!showMenu)
@@ -24,7 +24,7 @@ export function NavBar() {
                         <span></span>
                     </div>
 
-                    <div className={"navbar-menu nav-menu " + (showMenu ? "is-active" : null)}>
+                    <div className={'navbar-menu nav-menu ' + (showMenu ? 'is-active' : null)}>
                         <div className="navbar-end" onClick={handleMenuClick}>
                             <MenuItem text="About Me" href="#about-me"/>
                             <MenuItem text="Skills" href="#skills"/>

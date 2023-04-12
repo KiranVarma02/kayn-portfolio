@@ -1,4 +1,4 @@
-import {NavBar} from "./NavBar";
+import {NavBar} from './NavBar'
 import cv from '../../data/cv.json'
 
 export default function Hero() {
@@ -8,7 +8,7 @@ export default function Hero() {
                 <NavBar/>
             </div>
 
-            <div className="hero-foot" style={{paddingBottom: "20px"}}>
+            <div className="hero-foot" style={{paddingBottom: '20px'}}>
                 <div className="columns is-mobile">
                     <div className="column"></div>
                     {cv.basics.profiles
