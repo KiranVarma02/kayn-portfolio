@@ -1,0 +1,142 @@
+{
+  "basics": {
+    "name": "Kiran Varma",
+    "label": "Software Engineer",
+    "picture": "images/kiran-varma.webp",
+    "x_pictureFallback": "images/kiran-varma.jpg",
+    "x_title": "Hello! Glad you're here",
+    "summary": "I am a Dynamic, self-motivating Senior Software Engineer with over 10 years of experience in designing and developing solutions across various tiers of software stack. I have worked on greenfield and established projects developing server-side and client-side web based applications. I am able to work independently or can fit into any team and immediately contribute my experiences and skills. I am passionate about delivering high quality software and learning new technologies.",
+    "location": {
+      "country": "England",
+      "countryCode": "UK",
+      "region": "Surrey"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kiran-varma-57769624/",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "KiranVarma02",
+        "url": "https://github.com/KiranVarma02",
+        "x_icon": "fab fa-2x fa-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NewLook",
+      "position": "Senior Software Engineer",
+      "website": "https://www.newlook.com/uk",
+      "startDate": "2022-07-01",
+      "endDate": "",
+      "summary": "Worked on implementing Backend For Frontend architectural design pattern for NewLook mobile/web app.",
+      "skills": "Node.js, NestJS, Typescript, JavaScript, Azure, Docker, Kubernetes, Helm, PostgreSQL, Redis, Jest, Restful API, Argo CD, Mulesoft, Wiremock.",
+      "highlights": []
+    },
+    {
+      "company": "Sainsburys Bank",
+      "position": "Senior Software Engineer",
+      "website": "https://www.sainsburysbank.co.uk/",
+      "startDate": "2022-03-01",
+      "endDate": "2022-06-01",
+      "summary": "Worked on implementing balance transfer API and backend logic for a credit card application.",
+      "skills": "Node.js, Express, Typescript, JavaScript, AWS, Lambdas, DynamoDB, Restful API, Serverless, Redis, Jest.",
+      "highlights": []
+    },
+    {
+      "company": "Kainos - NHS",
+      "position": "Senior Software Engineer",
+      "website": "https://www.kainos.com/",
+      "startDate": "2020-11-01",
+      "endDate": "2022-03-01",
+      "summary": "Worked in various government projects",
+      "skills": "Node.js, JavaScript, React, AWS (DynamoDB, API Gateway, Lambda, Step Functions, SQS, SNS), Serverless.",
+      "highlights": []
+    },
+    {
+      "company": "Kainos - MOJ",
+      "position": "Senior Software Engineer",
+      "website": "https://www.kainos.com/",
+      "startDate": "2018-01-01",
+      "endDate": "2020-13-01",
+      "summary": "Worked in various government projects",
+      "skills": "Node.js, Java 11, TypeScript, Express, OAuth 2.0, Mocha, Chai, SuperTest, HTML, CSS, Docker, Kubernetes, Microsoft Azure, Jenkins, Microservices, PostgreSQL.",
+      "highlights": []
+    },
+    {
+      "company": "RBS",
+      "position": "Software Engineer",
+      "website": "https://www.natwest.com/",
+      "startDate": "2015-06-01",
+      "endDate": "2017-11-01",
+      "summary": "Worked as a full stack developer to create a regulatory reporting platform which is a web based Spring MVC application that uses AngularJS for frontend development. REST services are used to handle client-server requests. My role was in developing backend services layer to apply business rules, expose data to the reporting layer as Restful Services and show data in frontend reports. Also worked on supporting/defect resolution for the entire application.",
+      "skills": "Java 8, Javascript, TypeScript, Angular, Spring MVC, HTML, CSS, Teradata, Oracle, Tomcat, TeamCity.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Glasgow Calendonian Univeristy",
+      "area": "Business Administration",
+      "studyType": "Masters",
+      "yearDegreeAchieved": "2006"
+    },
+    {
+      "institution": "Oxford Brookes Univeristy",
+      "area": "Mobile High Speed TeleCommunication Networks",
+      "studyType": "Post Graduate Diploma",
+      "yearDegreeAchieved": "2001"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Node",
+      "x_icon": "fa-brands fa-node",
+      "x_description": "Lambda, SQS, SNS, CloudFormation, S3, CloudFront, IAM and others"
+    },
+    {
+      "name": "Javascript",
+      "x_icon": "fa-brands fa-js",
+      "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
+    },
+    {
+      "name": "Typescript",
+      "x_icon": "fa-brands fa-microsoft",
+      "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
+    },
+    {
+      "name": "React",
+      "x_icon": "fa-brands fa-react",
+      "x_description": "Writting deployment tools and scripts, and automating all possible tasks with Python"
+    },
+    {
+      "name": "AWS",
+      "x_icon": "fa-brands fa-aws",
+      "x_description": "Lambda, SQS, SNS, CloudFormation, S3, CloudFront, IAM and others"
+    },
+    {
+      "name": "Microsoft Azure",
+      "x_icon": "fa-brands fa-microsoft",
+      "x_description": "Lambda, SQS, SNS, CloudFormation, S3, CloudFront, IAM and others"
+    },
+    {
+      "name": "Serverless",
+      "x_icon": "fa-bolt",
+      "x_description": "Building reliable and cost efficient systems with Lambda functions and the serverless framework"
+    },
+    {
+      "name": "Containers",
+      "x_icon": "fa-brands fa-docker",
+      "x_description": "Building reliable and cost efficient systems with Lambda functions and the serverless framework"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    }
+  ]
+}
