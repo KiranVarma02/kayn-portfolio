@@ -52,3 +52,28 @@ html {
 .resize {
     height: auto;
 }
+
+/* --------- */
+/* Resume */
+/* --------- */
+
+.resume-section {
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+    color: white !important;
+}
+
+.resume {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.resume-left {
+    padding-right: 80px !important;
+}
+
+.resume-right {
+    padding-left: 80px !important;
+}

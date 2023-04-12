@@ -1,5 +1,4 @@
 import React from 'react'
-// import './App.css';
 import 'bulma/css/bulma.min.css'
 import {Header} from './components/structure/Header'
 import Content from "./components/structure/Content";
